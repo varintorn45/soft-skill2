@@ -1,0 +1,52 @@
+body {
+    background-image: url("kitty-background.jpg"); /* แทนที่ kitty-background.jpg ด้วยชื่อไฟล์รูปภาพลายคิตตี้ของคุณ */
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: rgb(244, 201, 234); /* สีพื้นหลังสำรอง */
+}
+
+/* เพิ่มเติม: ปรับแต่งองค์ประกอบอื่นๆ ตามต้องการ */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* พื้นหลังโปร่งแสงสำหรับ header */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* พื้นหลังโปร่งแสงสำหรับ section */
+    border-radius: 10px;
+}
+
+.profile-image {
+    border-radius: 50%; /* ทำให้รูปโปรไฟล์เป็นวงกลม */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #ff69b4; /* สีชมพูสดใส */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #ff1493; /* สีชมพูเข้มเมื่อโฮเวอร์ */
+    transform: scale(1.05);
+}

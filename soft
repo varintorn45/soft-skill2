@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio ของฉัo</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <h1>ชื่อของคุณ</h1>
+        <p>นักพัฒนาเว็บไซต์ / นักออกแบบ / อาชีพของคุณ</p>
+    </header>
+
+    <section id="about">
+        <h2>เกี่ยวกับฉัน</h2>
+        <p>เขียนประวัติส่วนตัวของคุณ สรุปทักษะและความสนใจของคุณ</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>ผลงานของฉัน</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="โครงการ 1">
+            <h3>ชื่อโครงการ 1</h3>
+            <p>คำอธิบายโครงการ 1</p>
+            <a href="#">ดูรายละเอียด</a>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="โครงการ 2">
+            <h3>ชื่อโครงการ 2</h3>
+            <p>คำอธิบายโครงการ 2</p>
+            <a href="#">ดูรายละเอียด</a>
+        </div>
+        </section>
+
+    <section id="contact">
+        <h2>ติดต่อฉัน</h2>
+        <p>อีเมล: your.email@example.com</p>
+        <p>โทรศัพท์: 012-345-6789</p>
+        <a href="#">ลิงก์ไปยัง LinkedIn</a>
+        <a href="#">ลิงก์ไปยัง GitHub</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ชื่อของคุณ</p>
+    </footer>
+
+    <script src="script.js"></script> </body>
+</html>
